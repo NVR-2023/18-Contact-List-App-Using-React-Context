@@ -24,6 +24,7 @@ export const Home = () => {
               return (
                 <li className="list-group-item" key={element.id}>
                   <Card
+                    index={element.id}
                     full_name={element.full_name}
                     address={element.address}
                     phone={element.phone}
