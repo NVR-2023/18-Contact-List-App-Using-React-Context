@@ -9,7 +9,6 @@ import "../../styles/home.css";
 export const Home = () => {
   const { store, actions } = useContext(Context);
 
-
   return (
     <div className="container-fluid">
       <div className="row g-0 px-3">

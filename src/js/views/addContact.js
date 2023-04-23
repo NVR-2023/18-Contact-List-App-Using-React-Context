@@ -1,9 +1,9 @@
-import React, { useState , useContext } from "react";
-import { Link , useNavigate } from "react-router-dom";
-import {Context} from "../store/appContext";
+import React, { useState, useContext } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { Context } from "../store/appContext";
 
 export const AddContact = () => {
-    const { store , actions } = useContext(Context);
+    const { store, actions } = useContext(Context);
     const navigate = useNavigate();
 
     const [newContact, setNewContact] = useState({
@@ -88,7 +88,7 @@ export const AddContact = () => {
                         />
                     </div>
                     <button className="btn btn-primary col-12"
-                            onClick={() => createNewContact()}
+                        onClick={() => createNewContact()}
                     >
                         Submit
                     </button>

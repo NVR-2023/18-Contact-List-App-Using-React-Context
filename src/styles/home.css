@@ -25,3 +25,7 @@
   border: none;
   background: none;
 }
+
+.bi.bi-pencil-fill {
+  fill: black !important;
+}
